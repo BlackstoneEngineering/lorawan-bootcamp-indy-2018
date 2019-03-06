@@ -20,9 +20,10 @@ Today we will be sending data in the [Cayenne Low Power payload](https://mydevic
 ## Coding Time!
 Lets get some code running!
 
-1. Add your device to your online compiler account by [clicking here](https://os.mbed.com/platforms/ST-Discovery-LRWAN1/add/) - or go to the platform page and click the 'Add to my compiler' button. 
+1. Sign up for an Mbed account : http://os.mbed.com
+1. Add your device to your online compiler account by **[clicking here](https://os.mbed.com/platforms/ST-Discovery-LRWAN1/add/)** - or go to the platform page and click the 'Add to my compiler' button. 
     ![add platform](img/add-platform.png)
-1. Import the code example by [clicking here](http://os.mbed.com/compiler/#import:https://github.com/BlackstoneEngineering/lorawan-bootcamp-indy-2018) or by importing the program from `https://github.com/BlackstoneEngineering/lorawan-bootcamp-indy-2018` .
+1. Import the code example by **[clicking here](http://os.mbed.com/compiler/#import:https://github.com/BlackstoneEngineering/lorawan-bootcamp-indy-2018)** or by importing the program from `https://ide.mbed.com/compiler?import=https://github.com/BlackstoneEngineering/lorawan-bootcamp-indy-2018` .
 1. Modify the `mbed_app.json` file. You will need to change the `device-address` and `device-eui` fields to match the piece of paper you were given. Change the last two digists `XX` to match the number you were given.
     ![modify-line](img/modify-line.png)
 1. Compile your code by pressing the `compile` button. 
